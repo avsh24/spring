@@ -11,7 +11,8 @@
     <bean id="myPet"
           class="IoC_DI.introduction.Dog"
           init-method="init"
-          destroy-method="destroy">
+          destroy-method="destroy"
+          scope="prototype">
     </bean>
 
 </beans>
