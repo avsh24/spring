@@ -1,8 +1,10 @@
 package IoC_DI.introduction;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope("singleton")
 public class Dog implements Pet {
     public Dog() {
         System.out.println("Dog bean is created");
