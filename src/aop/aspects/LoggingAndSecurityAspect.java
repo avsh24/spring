@@ -24,7 +24,6 @@ public class LoggingAndSecurityAspect {
     public void beforeAllMethodsExceptReturnMagazineAdvice() {
         System.out.println("beforeAllMethodsExceptReturnMagazineAdvice: " +
                 "writing Log #10");
-
     }
 
 //    @Pointcut("execution(* aop.UniLibrary.get*())")
